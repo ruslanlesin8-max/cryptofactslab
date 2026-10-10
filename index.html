@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="CryptoFactsLab — независимый анализ криптобирж, их безопасности, комиссий и условий работы.">
+  <title>CryptoFactsLab — проверка криптобирж</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0b1020;
+      color: #edf2ff;
+      line-height: 1.6;
+    }
+    header {
+      padding: 20px;
+      border-bottom: 1px solid #28324b;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+    .logo { font-size: 23px; font-weight: bold; }
+    .logo span { color: #a78bfa; }
+    nav a {
+      color: #cbd5e1;
+      text-decoration: none;
+      margin-left: 14px;
+    }
+    main { max-width: 1000px; margin: auto; padding: 28px 18px; }
+    .hero {
+      padding: 35px 0;
+    }
+    .tag {
+      color: #c4b5fd;
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+    h1 { font-size: clamp(32px, 7vw, 54px); line-height: 1.12; }
+    h2 { margin-top: 36px; }
+    .muted { color: #aab6cf; }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 16px;
+    }
+    .card {
+      background: #141c30;
+      border: 1px solid #2a3652;
+      border-radius: 14px;
+      padding: 20px;
+    }
+    .card h3 { margin-top: 0; }
+    .label {
+      display: inline-block;
+      background: #252b48;
+      color: #c4b5fd;
+      padding: 4px 9px;
+      border-radius: 6px;
+      font-size: 12px;
+    }
+    .notice {
+      background: #211f35;
+      border-left: 4px solid #a78bfa;
+      padding: 15px;
+      border-radius: 6px;
+    }
+    footer {
+      border-top: 1px solid #28324b;
+      padding: 25px 18px;
+      text-align: center;
+      color: #aab6cf;
+    }
+    a { color: #c4b5fd; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">Crypto<span>Facts</span>Lab</div>
+    <nav>
+      <a href="#method">Методика</a>
+      <a href="#exchanges">Биржи</a>
+      <a href="#about">О проекте</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="tag">Факты вместо обещаний</div>
+      <h1>Изучай криптобиржи.<br>Принимай решения осознанно.</h1>
+      <p class="muted">
+        Исследуем условия торговли, комиссии, безопасность и доступность
+        криптобирж. Показываем источники, чтобы каждый мог проверить выводы.
+      </p>
+    </section>
+
+    <section id="method">
+      <h2>Как мы оцениваем биржи</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>Безопасность</h3>
+          <p class="muted">История инцидентов, меры защиты аккаунта и доступные сведения о резервах.</p>
+        </article>
+        <article class="card">
+          <h3>Комиссии</h3>
+          <p class="muted">Торговые комиссии, ввод и вывод средств. Учитываем условия и ограничения.</p>
+        </article>
+        <article class="card">
+          <h3>Доступность</h3>
+          <p class="muted">Региональные ограничения, верификация и доступные способы пополнения.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="exchanges">
+      <h2>Каталог криптобирж</h2>
+      <p class="muted">Каталог находится в разработке. Проверенные данные будут добавляться со ссылками на первоисточники.</p>
+      <div class="cards">
+        <article class="card">
+          <span class="label">Скоро</span>
+          <h3>Сравнение бирж</h3>
+          <p class="muted">Сравнение условий по единой методике, без выдуманных оценок и отзывов.</p>
+        </article>
+        <article class="card">
+          <span class="label">Скоро</span>
+          <h3>Проверка фактов</h3>
+          <p class="muted">Разбор заявлений бирж с указанием источника и даты проверки.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="about">
+      <h2>О CryptoFactsLab</h2>
+      <p class="muted">
+        Независимый информационный проект о криптовалютных платформах.
+        Мы стремимся отделять подтверждённые факты от предположений и рекламы.
+      </p>
+      <div class="notice">
+        <strong>Важно:</strong> проект новый. На этой странице пока нет
+        завершённых проверок бирж. Материалы не являются финансовой рекомендацией.
+        Криптовалюты связаны с риском потери средств.
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    CryptoFactsLab · Информация требует самостоятельной проверки
+  </footer>
+</body>
+</html>
